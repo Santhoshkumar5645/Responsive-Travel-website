@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Stylish&display=swap");
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Stylish', sans-serif; */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Stylish", sans-serif;
+}
+.navbar_custom {
+  background-image: linear-gradient(
+    to left,
+    rgba(238, 55, 65, 0.1),
+    rgba(255, 255, 255, 0.1)
+  );
+}
+
+.navbar_logo {
+  width: 80px;
+  object-fit: contain;
+}
+.navbar_menu {
+  margin-left: auto;
+}
+.navbar_custom_text {
+  font-size: 1.5rem;
+  color: black;
+  margin-left: 1em;
+}
+
+.btn_custom {
+  transition: all 0.5s linear;
+}
+.custom_btn {
+  background-color: rgb(196, 138, 149);
+  margin: 5px;
+}
+.custom_btn:hover {
+  background-color: rgb(231, 76, 102);
+}
+
+/* carousel */
+
+.caption_button {
+  background: transparent;
+}
+
+.carousel_custom_image {
+  width: 100%;
+  height: 520px;
+  object-fit: cover;
+}
+
+.carousel_custom_caption_title {
+  padding-bottom: 30px;
+  color: black;
+  text-shadow: -2px 0 rgba(238, 55, 65, 0.2);
+}
+
+.carousel_custom_caption_para {
+  margin-top: -50px;
+  font-size: 1.4rem;
+}
+.custom_package_image {
+  height: 150px;
+  width: 200px;
+}
+
+.custom_image {
+  width: 500px;
+  height: 350px;
+}
+.social_media a {
+  font-size: 3rem;
+  padding: 2rem;
+}
+.fa-instagram {
+  color: rgb(206, 107, 107);
+}
+
+.fa-twitter {
+  color: blue;
+}
+
+.fa-youtube {
+  color: red;
+}
+
+.fa-google {
+  color: purple;
+}
+
+footer {
+  padding: 2rem;
+}
+
+hr.line {
+  width: 75%;
+  margin: 1em auto;
+}
+
+footer p {
+  font-size: 1.1rem;
+}
+hr.line-100 {
+  width: 100%;
+}
+
+/* media queries */
+
+@media screen and (max-width: 992px) {
+  .social_media a {
+    font-size: 2rem;
+    padding: 0.6em 0.5em 2em;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 0.9em;
+  }
+  .carousel_custom_image {
+    width: 100%;
+    height: 300px;
+  }
+  .carousel_custom_caption_title {
+    font-size: 2rem;
+  }
+
+  .carousel_custom_caption_para {
+    margin-top: -50px;
+    font-size: 1rem;
+  }
+
+  .custom_btn {
+    padding: 0.1em;
+  }
+
+  .custom_image {
+    width: 100%;
+  }
+}
